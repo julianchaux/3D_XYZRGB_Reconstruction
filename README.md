@@ -61,11 +61,11 @@ In a terminal you should run the ROS kernel with
 
 in other tabs the following commands are executed, each in a separate terminal
 
-`roslaunch turtlebot_bringup minimal.launch`
-`roslaunch control_dynamixel_ax12 controller_manager.launch`
-`roslaunch control_dynamixel_ax12 start_motor_controller.launch`
-`roslaunch usb_cam usb_cam test.launch`
-`rosrun urg_node urg_node`
+- `roslaunch turtlebot_bringup minimal.launch`
+- `roslaunch control_dynamixel_ax12 controller_manager.launch`
+- `roslaunch control_dynamixel_ax12 start_motor_controller.launch`
+- `roslaunch usb_cam usb_cam test.launch`
+- `rosrun urg_node urg_node`
 
 To execute each program.
 
