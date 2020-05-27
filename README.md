@@ -17,7 +17,7 @@ Repository folders and files:
 		|-- scan_and_go_color.py # Dynamic color reconstruction for the scanning mode: "scan and go"
 		|-- stop_and_scan_color.py # Dynamic color reconstruction for the scanning mode: "stop and scan"
 		|-- send_command.py # Manual sending of Command
-  |-- Data
+  |-- data
     |-- pointcloud_1.txt # Database file for the "scan and go" point cloud without color
     |-- pointcloud_2.txt # Database file for the "stop and scan" point cloud without color
     |-- pointcloud_3.txt # Database file for color point cloud "scan and go"
