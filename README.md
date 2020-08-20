@@ -19,7 +19,7 @@ Repository folders and files:
 		|-- scan_and_go_color.py # Dynamic color reconstruction for the scanning mode: "scan and go"
 		|-- stop_and_scan_color.py # Dynamic color reconstruction for the scanning mode: "stop and scan"
 		|-- send_command.py # Manual sending of Command
-		|-- move_ax12.py # Manual movement of the servomotor
+		|-- mover_ax12.py # Manual movement of the servomotor
   |-- data
     |-- pointcloud_1.txt # Database file for the "scan and go" point cloud without color
     |-- pointcloud_2.txt # Database file for the "stop and scan" point cloud without color
@@ -73,7 +73,19 @@ in other tabs the following commands are executed, each in a separate terminal:
 
 The proposed application contains two (2) modes of reconstruction.  The first one we call "Scan and go", is a continuous mode where the  robot  doesn’t  need  to  slow  down  during  its  trajectory. The  servomotor  on  which  the  LiDAR  sensor  is  supported operates  with  a  fixed  tilt  angle,  e.g.  with  a  45  degrees  of incidence in the central beam with respect to the floor.  Therefore the command is executed to position the servomotor at the required angle using the following python script:
 
-`python move_ax12.py`
+`python mover_ax12.py`
+
+Then the next python script is executed to start the reconstruction in "scan and go" mode.
+
+`python scan_and_go_color.py` or `python scan_and_go_no_color.py`
+
+This rebuild mode requires the operator to move the robot manually in the directions that require rebuilding, therefore, the following command must be executed to tele-operate the robot.  
+
+`roslaunch turtlebot_teleop keyboard_teleop.launch` or `roslaunch turtlebot_teleop ps3_teleop.launch`
+
+When the path is finished, the environment map has been reconstructed, the text files are generated that save the X, Y, Z, R, G, B information of the environment map.  An example of the generated files is in the `data` folder. A 3D environment generated in this reconstruction mode is shown below.
+
+![Image1](https://github.com/julianchaux/3D_XYZRGB_Reconstruction/blob/master/data/3D%20colorless%20reconstruction.png)
 
 ## Authors
 
