@@ -2,6 +2,8 @@
 
 This repository contains the description of a system that performs the extraction of geometric and color characteristics of a navigation environment, by using a reconstruction of a map with six dimensions of information: X, Y, Z, R, G and B.
 
+![Image1](https://github.com/julianchaux/3D_XYZRGB_Reconstruction/blob/master/data/3D%20colorless%20reconstruction.png)
+
 ## Folders and files
 
 Repository folders and files:
