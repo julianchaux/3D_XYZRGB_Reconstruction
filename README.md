@@ -85,7 +85,7 @@ This rebuild mode requires the operator to move the robot manually in the direct
 
 When the path is finished, the environment map has been reconstructed, the text files are generated that save the X, Y, Z, R, G, B information of the environment map.  An example of the generated files is in the `data` folder. A 3D environment generated in this reconstruction mode is shown below.
 
-![Image1](https://github.com/julianchaux/3D_XYZRGB_Reconstruction/blob/master/data/3D%20colorless%20reconstruction.png)
+![Image2](https://github.com/julianchaux/3D_XYZRGB_Reconstruction/blob/master/data/ColorlessPointCloud1.jpg)
 
 ## Authors
 
