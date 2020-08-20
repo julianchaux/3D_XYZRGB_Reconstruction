@@ -25,11 +25,12 @@ Repository folders and files:
 ```
 
 ## Hardware requirements
-
-- Turtlebot 2
-- Dynamixel AX12A servomotor
-- LOGITECH C920S HD PRO RGB Camera
-- HOKUYO RangeFinder URG-04LX-UG01
+| Component | Image | Reference |
+| -------- | ------- | --------- |
+| **Turtlebot 2** | ![Turtlebot image](https://www.turtlebot.com/assets/images/turtlebot_2_lg.png) | [https://www.turtlebot.com/turtlebot2/](https://www.turtlebot.com/turtlebot2/) |
+| **Dynamixel AX12A servomotor** | ![Dynamixel AX12](https://emanual.robotis.com/assets/images/dxl/ax/ax-12+_product.png) | [https://emanual.robotis.com/docs/en/dxl/ax/ax-12a/](https://emanual.robotis.com/docs/en/dxl/ax/ax-12a/) |
+| **LOGITECH C920S HD PRO RGB Camera** | ![LOGITECH C920S HD PRO RGB Camera](https://assets.logitech.com/assets/54515/hd-webcam-pro-c920-gallery.png) | [https://www.logitech.com/en-us/product/hd-pro-webcam-c920](https://www.logitech.com/en-us/product/hd-pro-webcam-c920) |
+| **HOKUYO RangeFinder URG-04LX-UG01** | ![HOKUYO URG-04LX-UG01](https://www.hokuyo-aut.jp/p/product/20160223110957_85.jpg) | [https://www.hokuyo-aut.jp/search/single.php?serial=166](https://www.hokuyo-aut.jp/search/single.php?serial=166) |
 
 ## Software requirements
 
