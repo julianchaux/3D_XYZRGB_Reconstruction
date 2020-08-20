@@ -62,7 +62,7 @@ In a terminal you should run the ROS kernel with
 
 `roscore`
 
-in other tabs the following commands are executed, each in a separate terminal
+in other tabs the following commands are executed, each in a separate terminal:
 
 - `roslaunch turtlebot_bringup minimal.launch`
 - `roslaunch control_dynamixel_ax12 controller_manager.launch`
@@ -70,7 +70,7 @@ in other tabs the following commands are executed, each in a separate terminal
 - `roslaunch usb_cam usb_cam test.launch`
 - `rosrun urg_node urg_node`
 
-To execute each program.
+The proposed application contains two (2) modes of reconstruction.  The first one we call "Scan and go", is a continuous mode where the  robot  doesn’t  need  to  slow  down  during  its  trajectory. The  servomotor  on  which  the  LiDAR  sensor  is  supported operates  with  a  fixed  tilt  angle,  e.g.  with  a  45  degrees  of incidence in the central beam with respect to the floor.  Therefore the command is executed to position the servomotor at the required angle.
 
 `rosrun my_pack source_code`
 
