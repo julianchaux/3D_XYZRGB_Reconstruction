@@ -19,6 +19,7 @@ Repository folders and files:
 		|-- scan_and_go_color.py # Dynamic color reconstruction for the scanning mode: "scan and go"
 		|-- stop_and_scan_color.py # Dynamic color reconstruction for the scanning mode: "stop and scan"
 		|-- send_command.py # Manual sending of Command
+		|-- move_ax12.py # Manual movement of the servomotor
   |-- data
     |-- pointcloud_1.txt # Database file for the "scan and go" point cloud without color
     |-- pointcloud_2.txt # Database file for the "stop and scan" point cloud without color
@@ -70,9 +71,9 @@ in other tabs the following commands are executed, each in a separate terminal:
 - `roslaunch usb_cam usb_cam test.launch`
 - `rosrun urg_node urg_node`
 
-The proposed application contains two (2) modes of reconstruction.  The first one we call "Scan and go", is a continuous mode where the  robot  doesn’t  need  to  slow  down  during  its  trajectory. The  servomotor  on  which  the  LiDAR  sensor  is  supported operates  with  a  fixed  tilt  angle,  e.g.  with  a  45  degrees  of incidence in the central beam with respect to the floor.  Therefore the command is executed to position the servomotor at the required angle.
+The proposed application contains two (2) modes of reconstruction.  The first one we call "Scan and go", is a continuous mode where the  robot  doesn’t  need  to  slow  down  during  its  trajectory. The  servomotor  on  which  the  LiDAR  sensor  is  supported operates  with  a  fixed  tilt  angle,  e.g.  with  a  45  degrees  of incidence in the central beam with respect to the floor.  Therefore the command is executed to position the servomotor at the required angle using the following python script:
 
-`rosrun my_pack source_code`
+`python move_ax12.py`
 
 ## Authors
 
