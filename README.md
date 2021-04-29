@@ -107,7 +107,7 @@ When the path is finished, the environment map has been reconstructed, the text 
 ## Authors
 
 -   Harold F. Murcia - ([www.haroldmurcia.com](http://www.haroldmurcia.com/))
--   Julián R. Cháux - ([jchaux@misena.educo](mailto:jchaux@misena.educo))
+-   Julián R. Cháux - ([www.julianchaux.com](http://www.julianchaux.com/))
 
 ## License
 
